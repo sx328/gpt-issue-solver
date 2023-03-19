@@ -25,4 +25,4 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python .github/scripts/gpt4_issue_solver.py
+        run: python .github/scripts/issue_solver.py
